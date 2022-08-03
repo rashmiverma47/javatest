@@ -1,4 +1,4 @@
-package se.kth.compilers;
++package se.kth.compilers;
 
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.Assertions;
@@ -26,7 +26,7 @@ class HelloTest {
   @Test
   public void mainTest_empty() {
     Hello.main(new String[0]);
-    Assertions.assertEquals("Hello World!", outputStreamCaptor.toString());
+    Assertions.assertEquals("Hello World!!", outputStreamCaptor.toString());
   }
 
   @Test
