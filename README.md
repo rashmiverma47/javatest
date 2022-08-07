@@ -1,3 +1,4 @@
+#hi
 # Java Template
 
 This is a Java 17 template with Maven and JUnit which can use the preview features of Java. Building happens with `make`
